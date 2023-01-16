@@ -1,0 +1,11 @@
+[package]
+name = 'toycoin'
+version = '1.0.0'
+
+[addresses]
+toycoin = "0x2"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
